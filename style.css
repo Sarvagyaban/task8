@@ -24,20 +24,26 @@
     bottom: 0;
     left: 0; 
     animation: animateX 4s linear infinite, animateY 2s ease-out infinite alternate;
+    transform: rotate(45deg);
 
 }
 @keyframes animateX {
     from{
 left:8;
+transform: rotate(100deg);
+
     }
     to{
-left:90%;
+left:95%;
+transform: rotate(-45deg);
+
     }
 }
 
 
 @keyframes animateY {
     from{
+
 bottom: 8;
     }
     to{
